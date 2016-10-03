@@ -44,7 +44,7 @@ def _convert(data):
 def _log(args):
     global backtraces
 
-    type = args[0:1]
+    type = args[0:1][0]
     args = args[1:]
 
     # since this is data being transmitted as a header setting
